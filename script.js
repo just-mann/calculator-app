@@ -3,6 +3,8 @@ let numberButtons = document.querySelectorAll('.number');
 let decmialButton = document.getElementById('decimal');
 let operationSigns = document.querySelectorAll('.operator');
 let equalSign = document.getElementById('equal');
+let deleteButton = document.getElementById('delButton');
+let clearButton = document.getElementById('clearButton');
 
 let firstOperand = '';
 let secondOperand = '';
@@ -22,6 +24,20 @@ function appendNumber(number) {
             shouldReset = false;
     }
     showResult.textContent += number;
+}
+
+
+// Click the 'CE' button to clear all the display;
+clearButton.addEventListener('click', () => {
+    showResult.textContent = '0';
+})
+
+// Click the Delete Button to Delete the last number
+deleteButton.addEventListener('click', deleteLastNumber);
+
+// Delete Function
+function deleteLastNumber() {
+    showResult.textContent = showResult.textContent.toString().slice(0, -1);
 }
 
 
