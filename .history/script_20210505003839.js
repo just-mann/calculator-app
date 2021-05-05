@@ -85,38 +85,34 @@ equalSign.addEventListener('click', () => {
     // add
     function add(a, b){
         let output = a + b;
-        output = Number(output);
         // output = parseFloat(output).toFixed(2);
         console.log(a + b);
-        return showResult.textContent = output;
+        return showResult.textContent = output.toFixed(2);
     }
 
     // subtract
     function subtract(a, b){
         let output = a - b;
-        output = Number(output);
-        // output = parseFloat(output);
+        // output = parseFloat(output).toFixed(2);
         console.log(a - b);
-        return showResult.textContent = output;
+        return showResult.textContent = output.;
     }
 
     // multiply
     function multiply(a, b){
         let output = a * b;
-        output = Number(output);
-        // output = parseFloat(output);
+        // output = parseFloat(output).toFixed(2);
         console.log(a * b);
-        return showResult.textContent = output;
+        return showResult.textContent = output.toFixed(2);
     }
 
     // divide
     function divide(a, b){
         let output = a / b;
-        output = Number(output);
-        // output = parseFloat(output);
+        // output = parseFloat(output).toFixed(2);
         if (b === 0) return null;
         console.log(a / b);
-        return showResult.textContent = output;
+        return showResult.textContent = output.toFixed(2);
     }
 
 // Function that calls the basic Operators

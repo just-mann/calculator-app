@@ -112,7 +112,6 @@ equalSign.addEventListener('click', () => {
     // divide
     function divide(a, b){
         let output = a / b;
-        output = Number(output);
         // output = parseFloat(output);
         if (b === 0) return null;
         console.log(a / b);

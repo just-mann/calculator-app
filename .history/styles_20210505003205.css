@@ -13,7 +13,7 @@
 
 
 .mainContainer {
-    background-color: #3d3b3b;
+    background-color: #aaa;
     max-width: 350px;
     padding: 15px;
     margin: 50px auto;
@@ -41,7 +41,7 @@
     text-align: right;
     font-weight: bold;
     margin-bottom: 15px;
-    font-size: 25px;
+    font-size: 2px;
     font-family: var(--displayFont);
 }
 
@@ -61,7 +61,6 @@
     height: 70px;
     border-radius: 10px;
     font-weight: bold;
-    background-color: #fff;
     font-family: var(--displayFont);
 }
 

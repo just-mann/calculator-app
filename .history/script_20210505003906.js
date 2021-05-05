@@ -85,7 +85,6 @@ equalSign.addEventListener('click', () => {
     // add
     function add(a, b){
         let output = a + b;
-        output = Number(output);
         // output = parseFloat(output).toFixed(2);
         console.log(a + b);
         return showResult.textContent = output;
@@ -94,7 +93,7 @@ equalSign.addEventListener('click', () => {
     // subtract
     function subtract(a, b){
         let output = a - b;
-        output = Number(output);
+        
         // output = parseFloat(output);
         console.log(a - b);
         return showResult.textContent = output;
@@ -103,7 +102,6 @@ equalSign.addEventListener('click', () => {
     // multiply
     function multiply(a, b){
         let output = a * b;
-        output = Number(output);
         // output = parseFloat(output);
         console.log(a * b);
         return showResult.textContent = output;
@@ -112,7 +110,6 @@ equalSign.addEventListener('click', () => {
     // divide
     function divide(a, b){
         let output = a / b;
-        output = Number(output);
         // output = parseFloat(output);
         if (b === 0) return null;
         console.log(a / b);

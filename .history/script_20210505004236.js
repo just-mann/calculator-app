@@ -83,40 +83,20 @@ equalSign.addEventListener('click', () => {
 
 // Functions for Bacsic Math Operators
     // add
-    function add(a, b){
-        let output = a + b;
-        output = Number(output);
-        // output = parseFloat(output).toFixed(2);
-        console.log(a + b);
-        return showResult.textContent = output;
+    function add(a, b) {
+        return a + b;
     }
-
-    // subtract
-    function subtract(a, b){
-        let output = a - b;
-        output = Number(output);
-        // output = parseFloat(output);
-        console.log(a - b);
-        return showResult.textContent = output;
+    
+    function substract(a, b) {
+        return a - b;
     }
-
-    // multiply
-    function multiply(a, b){
-        let output = a * b;
-        output = Number(output);
-        // output = parseFloat(output);
-        console.log(a * b);
-        return showResult.textContent = output;
+    
+    function multiply(a, b) {
+    return a * b;
     }
-
-    // divide
-    function divide(a, b){
-        let output = a / b;
-        output = Number(output);
-        // output = parseFloat(output);
-        if (b === 0) return null;
-        console.log(a / b);
-        return showResult.textContent = output;
+    
+    function divide(a, b) {
+    return a / b;
     }
 
 // Function that calls the basic Operators
