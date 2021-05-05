@@ -57,7 +57,7 @@
     height: 70px;
     border-radius: 10px;
     font-weight: bold;
-    font-family: var(--displayFont);
+    font-family: va;
 }
 
 .clearButton {

@@ -1,16 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
-
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
-:root {
-    --displayFont: 'Orbitron', sans-serif;
-}
-
 
 .mainContainer {
     background-color: #545c5e;
@@ -37,8 +29,7 @@
     text-align: right;
     font-weight: bold;
     margin-bottom: 15px;
-    font-size: 35px;
-    font-family: var(--displayFont);
+    font-size: 25px;
 }
 
 .calculatorGrid {
@@ -57,7 +48,6 @@
     height: 70px;
     border-radius: 10px;
     font-weight: bold;
-    font-family: var(--displayFont);
 }
 
 .clearButton {

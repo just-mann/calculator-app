@@ -38,7 +38,6 @@
     font-weight: bold;
     margin-bottom: 15px;
     font-size: 35px;
-    font-family: var(--displayFont);
 }
 
 .calculatorGrid {
@@ -57,7 +56,6 @@
     height: 70px;
     border-radius: 10px;
     font-weight: bold;
-    font-family: var(--displayFont);
 }
 
 .clearButton {
