@@ -27,7 +27,7 @@ function appendNumber(number) {
 }
 
 
-// Click the 'CE' button to clear all the display;
+// Click the 'AC' button to clear all the display;
 clearButton.addEventListener('click', () => {
     showResult.textContent = '0';
 })
