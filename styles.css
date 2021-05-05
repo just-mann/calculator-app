@@ -90,4 +90,14 @@
     grid-row: 4 / 6;
     /* border: 1px solid #206420; */
 }
+
+.credit {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    text-align: center;
+}
+
+.credit a {
+    color: #ffffff;
+}
  
